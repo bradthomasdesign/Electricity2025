@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        epri: {
+          "dark-blue": "#0C3048",
+          "lighter-blue": "#2D5779",
+          orange: "#EE8123",
+          "lighter-orange": "#F6C055",
+          beige: "#E9E2B9",
+          "light-blue": "#8BC3D6",
+          slate: "#3A668F",
+          "darkest-blue": "#1F425A",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
