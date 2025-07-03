@@ -50,30 +50,30 @@ export default function Index() {
             </svg>
           </div>
 
-          {/* Navigation Items */}
-          <div className="flex items-center gap-6 text-white text-base">
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+          {/* Desktop Navigation Items */}
+          <div className="hidden lg:flex items-center gap-6 text-white text-base">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Thought Leadership
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Research
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Emerging Priorities
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Events & Training
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               About
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Resource Center
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Newsroom
             </span>
-            <span className="hidden lg:block hover:text-epri-light-blue cursor-pointer">
+            <span className="hover:text-epri-light-blue cursor-pointer">
               Careers
             </span>
           </div>
@@ -81,6 +81,22 @@ export default function Index() {
 
         {/* Right side icons */}
         <div className="flex items-center gap-4 text-white">
+          {/* Hamburger Menu Button - Only on tablet/mobile */}
+          <button
+            className="lg:hidden w-6 h-6 flex flex-col justify-center items-center cursor-pointer"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}
+            ></span>
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 my-1 ${isMenuOpen ? "opacity-0" : ""}`}
+            ></span>
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}
+            ></span>
+          </button>
           <div className="w-5 h-5 cursor-pointer">
             <svg fill="currentColor" viewBox="0 0 20 20">
               <path d="M9 16H11V14H9V16ZM10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 4C7.79 4 6 5.79 6 8H8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8C12 10 9 9.75 9 13H11C11 10.75 14 10.5 14 8C14 5.79 12.21 4 10 4Z" />
