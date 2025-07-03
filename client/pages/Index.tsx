@@ -537,30 +537,30 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-24">
             {/* Left Content - Events Calendar */}
             <div>
-              <h3 className="text-lg font-semibold text-epri-slate mb-4">
+              <h3 className="text-2xl font-bold text-epri-slate mb-6">
                 Events Calendar
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm mb-6 pr-8">
+              <p className="text-xl text-epri-dark-blue leading-relaxed mb-8">
                 Rob Chapman will become executive vice president and chief
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-4 py-2 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-6 py-3 rounded hover:bg-epri-dark-blue transition-colors">
                 View the Events Calendar
               </button>
             </div>
 
             {/* Right Content - Training */}
             <div>
-              <h3 className="text-lg font-semibold text-epri-slate mb-4">
+              <h3 className="text-2xl font-bold text-epri-slate mb-6">
                 Training and development opportunities
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm mb-6 pr-8">
+              <p className="text-xl text-epri-dark-blue leading-relaxed mb-8">
                 Rob Chapman will become executive vice president and chief
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-4 py-2 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-6 py-3 rounded hover:bg-epri-dark-blue transition-colors">
                 View all Training opportunities
               </button>
             </div>
