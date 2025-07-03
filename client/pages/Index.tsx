@@ -319,17 +319,17 @@ export default function Index() {
           {/* Topics Grid */}
           <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
             {/* Topic 1 */}
-            <div className="flex gap-6 h-72">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb157a1234c46b8cba634d593e4c9f583d9d3b55?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0"
               />
-              <div className="bg-epri-dark-blue p-6 rounded-lg flex-1 text-white">
-                <div className="text-sm text-epri-light-blue mb-6">
+              <div className="bg-epri-dark-blue p-4 sm:p-6 rounded-lg flex-1 text-white">
+                <div className="text-xs sm:text-sm text-epri-light-blue mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl leading-relaxed">
+                <h3 className="text-lg sm:text-xl leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
