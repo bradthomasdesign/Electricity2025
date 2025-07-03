@@ -200,7 +200,10 @@ export default function Index() {
       </section>
 
       {/* Statistics Section */}
-      <section className="relative py-20 bg-white">
+      <section
+        className="relative py-20 bg-white"
+        style={{ marginTop: "-500px" }}
+      >
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left - Windmill Image */}
