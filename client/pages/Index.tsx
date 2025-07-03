@@ -157,6 +157,7 @@ export default function Index() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets/TEMP/9695b4537d53927092b62040d7bbf11badf84b34?width=3840')`,
+            backgroundAttachment: scrollY < 1200 ? "fixed" : "scroll",
           }}
         />
 
