@@ -518,17 +518,17 @@ export default function Index() {
       </section>
 
       {/* Events & Training Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-sm font-normal text-gray-400 tracking-widest uppercase">
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-sm font-normal text-gray-400 tracking-[0.2em] uppercase">
               EVENTS & TRAININGS
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16">
+          <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
             {/* Left Content - Events Calendar */}
-            <div className="space-y-4">
+            <div className="space-y-5">
               <h3 className="text-lg font-semibold text-epri-slate">
                 Events Calendar
               </h3>
@@ -537,13 +537,13 @@ export default function Index() {
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-5 py-2 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-5 py-2.5 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
                 View the Events Calendar
               </button>
             </div>
 
             {/* Right Content - Training */}
-            <div className="space-y-4">
+            <div className="space-y-5">
               <h3 className="text-lg font-semibold text-epri-slate">
                 Training and development opportunities
               </h3>
@@ -552,7 +552,7 @@ export default function Index() {
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-5 py-2 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-5 py-2.5 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
                 View all Training opportunities
               </button>
             </div>
