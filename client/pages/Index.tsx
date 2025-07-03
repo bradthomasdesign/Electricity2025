@@ -518,41 +518,41 @@ export default function Index() {
       </section>
 
       {/* Events & Training Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-sm font-normal text-gray-400 tracking-[0.2em] uppercase">
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-xs font-normal text-gray-500 tracking-widest uppercase mb-8">
               EVENTS & TRAININGS
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
+          <div className="grid md:grid-cols-2 gap-16">
             {/* Left Content - Events Calendar */}
-            <div className="space-y-5">
-              <h3 className="text-lg font-semibold text-epri-slate">
+            <div className="space-y-4">
+              <h3 className="text-base font-semibold text-epri-slate mb-3">
                 Events Calendar
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-700 leading-relaxed text-sm mb-4">
                 Rob Chapman will become executive vice president and chief
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-5 py-2.5 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-4 py-2 text-xs hover:bg-epri-dark-blue transition-colors">
                 View the Events Calendar
               </button>
             </div>
 
             {/* Right Content - Training */}
-            <div className="space-y-5">
-              <h3 className="text-lg font-semibold text-epri-slate">
+            <div className="space-y-4">
+              <h3 className="text-base font-semibold text-epri-slate mb-3">
                 Training and development opportunities
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-700 leading-relaxed text-sm mb-4">
                 Rob Chapman will become executive vice president and chief
                 commercial customer officer, overseeing member and stakeholder
                 engagement and innovation.
               </p>
-              <button className="bg-epri-slate text-white px-5 py-2.5 text-xs font-medium hover:bg-epri-dark-blue transition-colors">
+              <button className="bg-epri-slate text-white px-4 py-2 text-xs hover:bg-epri-dark-blue transition-colors">
                 View all Training opportunities
               </button>
             </div>
