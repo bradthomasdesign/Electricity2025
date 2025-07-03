@@ -304,20 +304,20 @@ export default function Index() {
       </section>
 
       {/* Trending Topics Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-normal text-epri-dark-blue tracking-wider mb-4">
+      <section className="py-10 sm:py-16 lg:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 lg:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-normal text-epri-dark-blue tracking-wider mb-4">
               TRENDING TOPICS
             </h2>
-            <div className="text-right text-epri-dark-blue">
+            <div className="text-right text-epri-dark-blue text-sm sm:text-base">
               <p>View all research</p>
               <p>View all thought leadership</p>
             </div>
           </div>
 
           {/* Topics Grid */}
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
             {/* Topic 1 */}
             <div className="flex gap-6 h-72">
               <img
