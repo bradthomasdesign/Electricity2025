@@ -529,7 +529,7 @@ export default function Index() {
       <section className="py-24 bg-gray-100">
         <div className="max-w-5xl mx-auto px-12">
           <div className="text-center mb-20">
-            <h2 className="text-xs font-normal text-gray-400 tracking-[0.2em] uppercase">
+            <h2 className="text-3xl font-normal text-epri-lighter-blue tracking-wider">
               EVENTS & TRAININGS
             </h2>
           </div>
