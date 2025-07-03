@@ -109,6 +109,38 @@ export default function Index() {
           </div>
           <span className="hidden md:block text-base">Log In or Register</span>
         </div>
+
+        {/* Mobile Menu Dropdown */}
+        <div
+          className={`lg:hidden absolute top-full left-0 w-full bg-epri-dark-blue border-t border-epri-lighter-blue transition-all duration-300 z-50 ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
+        >
+          <div className="flex flex-col py-4 px-4 space-y-4 text-white">
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Thought Leadership
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Research
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Emerging Priorities
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Events & Training
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              About
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Resource Center
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
+              Newsroom
+            </span>
+            <span className="hover:text-epri-light-blue cursor-pointer py-2">
+              Careers
+            </span>
+          </div>
+        </div>
       </nav>
 
       {/* Hero Section */}
