@@ -14,7 +14,24 @@ export default function Index() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4 relative">
-        <div className="flex items-center gap-5">
+        <div className="flex items-center">
+          {/* Hamburger Menu Button - Only on tablet/mobile */}
+          <button
+            className="lg:hidden w-6 h-6 flex flex-col justify-center items-center cursor-pointer mr-6"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}
+            ></span>
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 my-1 ${isMenuOpen ? "opacity-0" : ""}`}
+            ></span>
+            <span
+              className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}
+            ></span>
+          </button>
+
           {/* EPRI Logo */}
           <div className="text-white font-bold text-xl">
             <svg
