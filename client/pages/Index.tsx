@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Index() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4">
+      <nav className="w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4 relative">
         <div className="flex items-center gap-5">
           {/* EPRI Logo */}
           <div className="text-white font-bold text-xl">
