@@ -108,28 +108,36 @@ export default function Index() {
 
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 pt-20 lg:pt-32">
-          {/* Orange accent bar */}
-          <div className="w-2 h-40 bg-epri-orange mb-6" />
+          <div className="flex items-start gap-4">
+            {/* Orange accent bar */}
+            <div
+              className="w-2 h-40 bg-epri-orange flex-shrink-0"
+              style={{ marginRight: "16px" }}
+            />
 
-          {/* Main heading */}
-          <h1 className="text-5xl lg:text-8xl font-bold text-epri-lighter-blue leading-tight max-w-5xl mb-8">
-            Follow the science.
-            <br />
-            Empower the public.
-          </h1>
+            {/* Content */}
+            <div className="flex-1">
+              {/* Main heading */}
+              <h1 className="text-5xl lg:text-8xl font-bold text-epri-lighter-blue leading-tight max-w-5xl mb-8">
+                Follow the science.
+                <br />
+                Empower the public.
+              </h1>
 
-          {/* Description */}
-          <p className="text-xl text-epri-dark-blue max-w-2xl leading-relaxed mb-8">
-            EPRI is a global, independent research nonprofit that brings
-            together hard science and rigorous objectivity to secure a resilient
-            energy future. Everything we do is for the public—so we never
-            advocate for any company, sector, or technology.
-          </p>
+              {/* Description */}
+              <p className="text-xl text-epri-dark-blue max-w-2xl leading-relaxed mb-8">
+                EPRI is a global, independent research nonprofit that brings
+                together hard science and rigorous objectivity to secure a
+                resilient energy future. Everything we do is for the public—so
+                we never advocate for any company, sector, or technology.
+              </p>
 
-          {/* CTA Button */}
-          <button className="bg-epri-lighter-blue text-white px-6 py-3 rounded hover:bg-epri-dark-blue transition-colors shadow-lg">
-            Explore our Research
-          </button>
+              {/* CTA Button */}
+              <button className="bg-epri-lighter-blue text-white px-6 py-3 rounded hover:bg-epri-dark-blue transition-colors shadow-lg">
+                Explore our Research
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
