@@ -171,25 +171,25 @@ export default function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white" />
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 pt-20 lg:pt-32">
-          <div className="flex items-start gap-4">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 lg:pt-32">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-4">
             {/* Orange accent bar */}
             <div
-              className="w-2 h-40 bg-epri-orange flex-shrink-0"
+              className="w-2 h-20 sm:h-40 bg-epri-orange flex-shrink-0"
               style={{ marginRight: "16px", marginTop: "16px" }}
             />
 
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               {/* Main heading */}
-              <h1 className="text-5xl lg:text-8xl font-bold text-epri-lighter-blue leading-tight max-w-5xl mb-8">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-bold text-epri-lighter-blue leading-tight mb-6 sm:mb-8 break-words">
                 Follow the science.
                 <br />
                 Empower the public.
               </h1>
 
               {/* Description */}
-              <p className="text-xl text-epri-dark-blue max-w-2xl leading-relaxed mb-8">
+              <p className="text-base sm:text-lg lg:text-xl text-epri-dark-blue leading-relaxed mb-6 sm:mb-8 max-w-full sm:max-w-2xl">
                 EPRI is a global, independent research nonprofit that brings
                 together hard science and rigorous objectivity to secure a
                 resilient energy future. Everything we do is for the public—so
