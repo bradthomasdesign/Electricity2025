@@ -211,10 +211,10 @@ export default function Index() {
         style={{ marginTop: "-200px sm:-300px lg:-500px" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left - Windmill Image */}
-            <div className="relative">
-              <div className="w-full max-w-lg mx-auto">
+            <div className="relative order-2 lg:order-1">
+              <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/44469e87386b2b0e411aecf55199fa38120b17f6?width=1416"
                   alt="Wind energy landscape"
@@ -224,20 +224,20 @@ export default function Index() {
             </div>
 
             {/* Right - Content and Stats */}
-            <div className="space-y-8">
-              <div className="flex items-start gap-4">
+            <div className="space-y-6 lg:space-y-8 order-1 lg:order-2">
+              <div className="flex flex-col sm:flex-row sm:items-start gap-4">
                 {/* Blue accent bar */}
                 <div
-                  className="w-2 h-24 bg-epri-lighter-blue flex-shrink-0"
+                  className="w-2 h-16 sm:h-24 bg-epri-lighter-blue flex-shrink-0"
                   style={{ marginRight: "16px" }}
                 />
 
                 {/* Content */}
-                <div className="space-y-6">
-                  <h2 className="text-4xl lg:text-5xl font-bold text-epri-orange leading-tight">
+                <div className="space-y-4 lg:space-y-6 min-w-0">
+                  <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-epri-orange leading-tight break-words">
                     Collaborating today to build our energy future
                   </h2>
-                  <p className="text-xl text-epri-dark-blue leading-relaxed">
+                  <p className="text-base sm:text-lg lg:text-xl text-epri-dark-blue leading-relaxed">
                     By partnering with industry, academia, and government, we
                     tackle the critical energy challenges of today and the
                     opportunities of tomorrow.
@@ -246,7 +246,7 @@ export default function Index() {
               </div>
 
               {/* Statistics */}
-              <div className="grid grid-cols-3 gap-8 pt-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-8 pt-6 lg:pt-8">
                 <div className="text-center">
                   <div className="w-24 h-24 bg-epri-lighter-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
