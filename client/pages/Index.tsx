@@ -432,18 +432,28 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Left Content */}
             <div className="space-y-6">
-              <div className="w-2 h-20 bg-epri-lighter-orange mb-6" />
-              <h3 className="text-3xl font-bold leading-tight">
-                Addressing the electricity industry's urgent needs
-              </h3>
-              <p className="text-xl leading-relaxed">
-                EPRI's emerging priorities are strategic energy initiatives
-                where we work in close collaboration with global stakeholders to
-                address pressing electricity needs. These areas of focus are
-                essential to our mission of ensuring that society has access to
-                clean, safe, reliable, affordable, and equitable electricity
-                worldwide.
-              </p>
+              <div className="flex items-start gap-4">
+                {/* Gold accent bar */}
+                <div
+                  className="w-2 h-20 bg-epri-lighter-orange flex-shrink-0"
+                  style={{ marginRight: "16px" }}
+                />
+
+                {/* Content */}
+                <div className="space-y-6">
+                  <h3 className="text-3xl font-bold leading-tight">
+                    Addressing the electricity industry's urgent needs
+                  </h3>
+                  <p className="text-xl leading-relaxed">
+                    EPRI's emerging priorities are strategic energy initiatives
+                    where we work in close collaboration with global
+                    stakeholders to address pressing electricity needs. These
+                    areas of focus are essential to our mission of ensuring that
+                    society has access to clean, safe, reliable, affordable, and
+                    equitable electricity worldwide.
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Right - Priority List */}
