@@ -518,13 +518,55 @@ export default function Index() {
       </section>
 
       {/* Events & Training Section */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-pink-500 text-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/41186736f4f66da2a01c1e0f72f57412e4d8b5e0?width=3840"
-            alt="Events and Training"
-            className="w-full h-96 object-cover rounded-2xl"
-          />
+      <section className="relative py-20 text-white overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets/TEMP/41186736f4f66da2a01c1e0f72f57412e4d8b5e0?width=3840')`,
+          }}
+        />
+
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/80 to-pink-500/80" />
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              EVENTS & TRAININGS
+            </h2>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold">Events Calendar</h3>
+              <p className="text-lg leading-relaxed">
+                Visit in-person and digital executive and presenter that attend
+                professional customer convenience and networking regarding all
+                experience engagement are empowering.
+              </p>
+              <button className="bg-white text-purple-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition-colors">
+                View Events Calendar
+              </button>
+            </div>
+
+            {/* Right Content */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold">
+                Training and development opportunities
+              </h3>
+              <p className="text-lg leading-relaxed">
+                EPRI Programs and technical track cost and attendee and their
+                commercial customer convenience all experience management are
+                empowering knowledge.
+              </p>
+              <button className="bg-white text-pink-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition-colors">
+                View Training Programs
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
