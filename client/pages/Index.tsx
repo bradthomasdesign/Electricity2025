@@ -197,7 +197,7 @@ export default function Index() {
               </p>
 
               {/* CTA Button */}
-              <button className="bg-epri-lighter-blue text-white px-6 py-3 rounded hover:bg-epri-dark-blue transition-colors shadow-lg">
+              <button className="bg-epri-lighter-blue text-white px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded hover:bg-epri-dark-blue transition-colors shadow-lg">
                 Explore our Research
               </button>
             </div>
@@ -207,10 +207,10 @@ export default function Index() {
 
       {/* Statistics Section */}
       <section
-        className="relative py-20 bg-transparent"
-        style={{ marginTop: "-500px" }}
+        className="relative py-10 sm:py-16 lg:py-20 bg-transparent"
+        style={{ marginTop: "-200px sm:-300px lg:-500px" }}
       >
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left - Windmill Image */}
             <div className="relative">
