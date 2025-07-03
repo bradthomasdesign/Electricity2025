@@ -201,7 +201,7 @@ export default function Index() {
 
       {/* Statistics Section */}
       <section
-        className="relative py-20 bg-white"
+        className="relative py-20 bg-transparent"
         style={{ marginTop: "-500px" }}
       >
         <div className="max-w-7xl mx-auto px-4">
