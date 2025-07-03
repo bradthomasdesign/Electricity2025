@@ -337,17 +337,17 @@ export default function Index() {
             </div>
 
             {/* Topic 2 */}
-            <div className="flex gap-6 h-72">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3dc59621353e63d5b6ba761b7f2a7bc68f569f7?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0"
               />
-              <div className="bg-white p-6 rounded-lg flex-1 border">
-                <div className="text-sm text-epri-dark-blue mb-6">
+              <div className="bg-white p-4 sm:p-6 rounded-lg flex-1 border">
+                <div className="text-xs sm:text-sm text-epri-dark-blue mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl text-epri-lighter-blue leading-relaxed">
+                <h3 className="text-lg sm:text-xl text-epri-lighter-blue leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
@@ -355,12 +355,12 @@ export default function Index() {
             </div>
 
             {/* Topic 3 */}
-            <div className="flex gap-6 h-72">
-              <div className="bg-white p-6 rounded-lg flex-1 border">
-                <div className="text-sm text-epri-dark-blue mb-6">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
+              <div className="bg-white p-4 sm:p-6 rounded-lg flex-1 border order-2 sm:order-1">
+                <div className="text-xs sm:text-sm text-epri-dark-blue mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl text-epri-lighter-blue leading-relaxed">
+                <h3 className="text-lg sm:text-xl text-epri-lighter-blue leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
@@ -368,17 +368,17 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b57607b0e598a349c391f5726773db51994ab98?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0 order-1 sm:order-2"
               />
             </div>
 
             {/* Topic 4 */}
-            <div className="flex gap-6 h-72">
-              <div className="bg-epri-orange/10 p-6 rounded-lg flex-1">
-                <div className="text-sm text-epri-dark-blue mb-6">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
+              <div className="bg-epri-orange/10 p-4 sm:p-6 rounded-lg flex-1 order-2 sm:order-1">
+                <div className="text-xs sm:text-sm text-epri-dark-blue mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl text-epri-lighter-blue leading-relaxed">
+                <h3 className="text-lg sm:text-xl text-epri-lighter-blue leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
@@ -386,22 +386,22 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/54b5796933d22d0e291e22a3e459ead2aa43a7c2?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0 order-1 sm:order-2"
               />
             </div>
 
             {/* Topic 5 */}
-            <div className="flex gap-6 h-72">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/72599b4c4054acebaed44b961d83f85bc4d0c27e?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0"
               />
-              <div className="bg-epri-lighter-blue p-6 rounded-lg flex-1 text-white">
-                <div className="text-sm text-epri-beige mb-6">
+              <div className="bg-epri-lighter-blue p-4 sm:p-6 rounded-lg flex-1 text-white">
+                <div className="text-xs sm:text-sm text-epri-beige mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl leading-relaxed">
+                <h3 className="text-lg sm:text-xl leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
@@ -409,17 +409,17 @@ export default function Index() {
             </div>
 
             {/* Topic 6 */}
-            <div className="flex gap-6 h-72">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 h-auto sm:h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e85871c3191b7f96c867c1d4a91168909d6e2d85?width=908"
                 alt="Topic"
-                className="w-72 h-72 object-cover rounded-lg"
+                className="w-full sm:w-72 h-48 sm:h-72 object-cover rounded-lg flex-shrink-0"
               />
-              <div className="bg-white p-6 rounded-lg flex-1 border">
-                <div className="text-sm text-epri-dark-blue mb-6">
+              <div className="bg-white p-4 sm:p-6 rounded-lg flex-1 border">
+                <div className="text-xs sm:text-sm text-epri-dark-blue mb-4 sm:mb-6">
                   INTERACTIVE REPORT
                 </div>
-                <h3 className="text-xl text-epri-lighter-blue leading-relaxed">
+                <h3 className="text-lg sm:text-xl text-epri-lighter-blue leading-relaxed">
                   Powering Intelligence: Analyzing Artificial Intelligence and
                   Data Center Energy Consumption
                 </h3>
