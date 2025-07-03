@@ -222,7 +222,7 @@ export default function Index() {
 
             {/* Right - Content and Stats */}
             <div className="space-y-6 lg:space-y-8 order-1 lg:order-2">
-              <div className="flex flex-col sm:flex-row sm:items-start gap-4">
+              <div className="flex items-start gap-4">
                 {/* Blue accent bar */}
                 <div
                   className="w-2 h-16 sm:h-24 bg-epri-lighter-blue flex-shrink-0"
