@@ -112,7 +112,7 @@ export default function Index() {
             {/* Orange accent bar */}
             <div
               className="w-2 h-40 bg-epri-orange flex-shrink-0"
-              style={{ marginRight: "16px" }}
+              style={{ marginRight: "16px", marginTop: "24px" }}
             />
 
             {/* Content */}
