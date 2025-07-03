@@ -296,11 +296,11 @@ export default function Index() {
           {/* Topics Grid */}
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Topic 1 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb157a1234c46b8cba634d593e4c9f583d9d3b55?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
               <div className="bg-epri-dark-blue p-6 rounded-lg flex-1 text-white">
                 <div className="text-sm text-epri-light-blue mb-6">
@@ -314,11 +314,11 @@ export default function Index() {
             </div>
 
             {/* Topic 2 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e3dc59621353e63d5b6ba761b7f2a7bc68f569f7?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
               <div className="bg-white p-6 rounded-lg flex-1 border">
                 <div className="text-sm text-epri-dark-blue mb-6">
@@ -332,7 +332,7 @@ export default function Index() {
             </div>
 
             {/* Topic 3 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <div className="bg-white p-6 rounded-lg flex-1 border">
                 <div className="text-sm text-epri-dark-blue mb-6">
                   INTERACTIVE REPORT
@@ -345,12 +345,12 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b57607b0e598a349c391f5726773db51994ab98?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
             </div>
 
             {/* Topic 4 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <div className="bg-epri-orange/10 p-6 rounded-lg flex-1">
                 <div className="text-sm text-epri-dark-blue mb-6">
                   INTERACTIVE REPORT
@@ -363,16 +363,16 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/54b5796933d22d0e291e22a3e459ead2aa43a7c2?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
             </div>
 
             {/* Topic 5 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/72599b4c4054acebaed44b961d83f85bc4d0c27e?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
               <div className="bg-epri-lighter-blue p-6 rounded-lg flex-1 text-white">
                 <div className="text-sm text-epri-beige mb-6">
@@ -386,11 +386,11 @@ export default function Index() {
             </div>
 
             {/* Topic 6 */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 h-72">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e85871c3191b7f96c867c1d4a91168909d6e2d85?width=908"
                 alt="Topic"
-                className="w-72 h-96 object-cover rounded-lg"
+                className="w-72 h-72 object-cover rounded-lg"
               />
               <div className="bg-white p-6 rounded-lg flex-1 border">
                 <div className="text-sm text-epri-dark-blue mb-6">
