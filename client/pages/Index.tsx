@@ -527,7 +527,7 @@ export default function Index() {
 
       {/* Events & Training Section */}
       <section className="py-24 bg-gray-100">
-        <div className="max-w-5xl mx-auto px-12">
+        <div className="mx-auto px-12" style={{ maxWidth: "1124px" }}>
           <div className="text-center mb-20">
             <h2 className="text-3xl font-normal text-epri-lighter-blue tracking-wider">
               EVENTS & TRAININGS
