@@ -216,18 +216,24 @@ export default function Index() {
 
             {/* Right - Content and Stats */}
             <div className="space-y-8">
-              {/* Blue accent bar */}
-              <div className="w-2 h-24 bg-epri-lighter-blue" />
+              <div className="flex items-start gap-4">
+                {/* Blue accent bar */}
+                <div
+                  className="w-2 h-24 bg-epri-lighter-blue flex-shrink-0"
+                  style={{ marginRight: "16px" }}
+                />
 
-              <div className="space-y-6">
-                <h2 className="text-4xl lg:text-5xl font-bold text-epri-orange leading-tight">
-                  Collaborating today to build our energy future
-                </h2>
-                <p className="text-xl text-epri-dark-blue leading-relaxed">
-                  By partnering with industry, academia, and government, we
-                  tackle the critical energy challenges of today and the
-                  opportunities of tomorrow.
-                </p>
+                {/* Content */}
+                <div className="space-y-6">
+                  <h2 className="text-4xl lg:text-5xl font-bold text-epri-orange leading-tight">
+                    Collaborating today to build our energy future
+                  </h2>
+                  <p className="text-xl text-epri-dark-blue leading-relaxed">
+                    By partnering with industry, academia, and government, we
+                    tackle the critical energy challenges of today and the
+                    opportunities of tomorrow.
+                  </p>
+                </div>
               </div>
 
               {/* Statistics */}
