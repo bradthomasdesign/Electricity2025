@@ -77,28 +77,16 @@ export default function Index() {
           {/* Desktop Navigation Items */}
           <div className="hidden lg:flex items-center gap-6 text-white text-base ml-5">
             <span className="hover:text-epri-light-blue cursor-pointer">
-              Thought Leadership
+              About
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer">
               Research
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer">
-              Emerging Priorities
+              Resources
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer">
-              Events & Training
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer">
-              About
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer">
-              Resource Center
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer">
-              Newsroom
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer">
-              Careers
+              Where we Work
             </span>
           </div>
         </div>
