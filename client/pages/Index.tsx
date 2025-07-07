@@ -112,28 +112,16 @@ export default function Index() {
         >
           <div className="flex flex-col py-4 px-4 space-y-4 text-white">
             <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              Thought Leadership
+              About
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
               Research
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              Emerging Priorities
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              Events & Training
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              About
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              Resource Center
-            </span>
-            <span className="hover:text-epri-light-blue cursor-pointer py-2 border-b border-epri-lighter-blue/20">
-              Newsroom
+              Resources
             </span>
             <span className="hover:text-epri-light-blue cursor-pointer py-2">
-              Careers
+              Where we Work
             </span>
           </div>
         </div>
