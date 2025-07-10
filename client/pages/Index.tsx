@@ -182,7 +182,7 @@ export default function Index() {
       </section>
 
       {/* Statistics Section */}
-      <section className="relative py-10 sm:py-16 lg:py-20 bg-transparent -mt-8 sm:-mt-24 lg:-mt-48">
+      <section className="relative py-10 sm:py-16 lg:py-20 bg-transparent mt-16 sm:mt-1 lg:-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left - Windmill Image */}
