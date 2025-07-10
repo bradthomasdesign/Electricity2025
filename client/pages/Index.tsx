@@ -11,6 +11,10 @@ export default function Index() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const toggleLogin = () => {
+    setIsLoggedIn(!isLoggedIn);
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
