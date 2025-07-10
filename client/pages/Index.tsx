@@ -128,7 +128,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative w-full h-screen bg-gradient-to-b from-transparent to-white">
+      <section className="relative w-full h-screen max-h-[800px] bg-gradient-to-b from-transparent to-white">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
