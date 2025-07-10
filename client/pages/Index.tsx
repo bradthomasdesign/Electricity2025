@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4 relative">
+      <nav className="fixed top-0 left-0 w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4 z-50">
         <div className="flex items-center">
           {/* Hamburger Menu Button - Only on tablet/mobile */}
           <button
