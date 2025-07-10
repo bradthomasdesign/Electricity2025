@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
