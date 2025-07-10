@@ -186,7 +186,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left - Windmill Image */}
-            <div className="relative order-2 lg:order-1">
+            <div className="relative order-1 lg:order-1">
               <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/44469e87386b2b0e411aecf55199fa38120b17f6?width=1416"
@@ -197,7 +197,7 @@ export default function Index() {
             </div>
 
             {/* Right - Content and Stats */}
-            <div className="space-y-6 lg:space-y-8 order-1 lg:order-2">
+            <div className="space-y-6 lg:space-y-8 order-2 lg:order-2">
               <div className="flex items-start gap-4">
                 {/* Blue accent bar */}
                 <div
