@@ -18,7 +18,10 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 w-full h-14 bg-epri-dark-blue flex items-center justify-between px-4 z-50">
+      <nav
+        className="fixed top-0 left-0 w-full h-14 flex items-center justify-between px-4 z-50 transition-colors duration-300"
+        style={{ backgroundColor: isLoggedIn ? "#1976D2" : "#0C3048" }}
+      >
         <div className="flex items-center">
           {/* Hamburger Menu Button - Only on tablet/mobile */}
           <button
